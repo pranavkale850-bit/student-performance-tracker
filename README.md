@@ -1,9 +1,13 @@
 # student-performance-tracker
 ML project to predict student performance and provide improvement recommendations using feature analysis and classification models.
 
-# 📊 Student Performance Tracker & Recommendation System
+# 📊 Student Performance Tracker
 
-## 🚀 Overview
+## 🚀 Student Performance Analysis & Recommendation System
+
+---
+
+## 📌 Overview
 
 This project predicts student academic performance and provides actionable recommendations using machine learning techniques.
 
@@ -33,27 +37,34 @@ This project predicts student academic performance and provides actionable recom
 * Pandas
 * NumPy
 * Scikit-learn
-* Matplotlib / Seaborn
+* Matplotlib
+* Seaborn
 
 ---
 
 ## 📂 Project Structure
 
+```
 student-performance-tracker/
-│── data_analysis.py        # Data preprocessing & visualization
-│── model_training.py      # Model building & evaluation
-│── README.md
-│── dataset.csv (optional)
+│
+├── data/
+├── src/
+│   ├── data_analysis.py
+│   └── model_training.py
+│
+├── README.md
+└── requirements.txt
+```
 
 ---
 
 ## 📊 Results (Current)
 
 * Accuracy: ~48–50%
-* Top features:
+* Key Features:
 
   * absences
-  * age (unexpected impact ⚠️)
+  * age (unexpected ⚠️)
   * health
   * goout
   * Walc
@@ -65,26 +76,25 @@ student-performance-tracker/
 ### Day 4
 
 * Uploaded project to GitHub
-* Performed feature importance analysis
+* Feature importance analysis completed
 * Identified key influencing factors
-* Observed accuracy drop after feature adjustments
+* Accuracy drop observed
 
 ---
 
 ## ⚠️ Challenges
 
-* Unexpected influence of "age" feature
-* Model accuracy fluctuations
-* Feature selection complexity
+* Age feature behaving unexpectedly
+* Accuracy instability
+* Feature selection issues
 
 ---
 
 ## 🎯 Future Improvements
 
-* Advanced feature engineering
+* Better feature engineering
 * Hyperparameter tuning
-* Try models like XGBoost, Logistic Regression
-* Improve accuracy & generalization
+* Try advanced models (XGBoost, Logistic Regression)
 
 ---
 
