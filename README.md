@@ -98,6 +98,33 @@ student-performance-tracker/
 
 ---
 
+## 🚀 Day 5 Progress
+
+### 🔹 Handling Class Imbalance
+- Applied `class_weight="balanced"` in Random Forest
+- Improved detection of minority class ("Good" students)
+
+### 🔹 Model Improvements
+- Compared Logistic Regression, Decision Tree, and Random Forest
+- Random Forest showed best performance (~51% accuracy)
+
+### 🔹 Feature Importance
+- Identified key factors affecting performance:
+  - Absences
+  - Study habits (goout, Walc)
+  - Health
+- Observed that some features (e.g., age) had indirect influence
+
+### 🔹 Recommendation System
+- Built rule-based recommendation logic
+- Generates actionable suggestions based on student behavior
+- Example:
+  - Low study time → suggest increase
+  - High absences → suggest reduction
+
+### 🔹 Key Insight
+> Model predictions were enhanced by combining machine learning with rule-based recommendations to create a practical student support system.
+
 ## 👨‍💻 Author
 
 Pranav Kale
