@@ -7,7 +7,7 @@ ML project to predict student performance and provide improvement recommendation
 
 ---
 
-## 📌 Overview
+## 📌 Overviewnan
 
 This project predicts student academic performance and provides actionable recommendations using machine learning techniques.
 
@@ -125,6 +125,15 @@ student-performance-tracker/
 ### 🔹 Key Insight
 > Model predictions were enhanced by combining machine learning with rule-based recommendations to create a practical student support system.
 
-## 👨‍💻 Author
 
-Pranav Kale
+
+## 🧠 Learning Progress
+
+- Learned how to handle class imbalance in ML models
+- Understood trade-offs between accuracy and fairness
+- Implemented feature importance for model interpretability
+- Built a basic recommendation engine using model insights
+
+👨‍💻 Author
+
+~ Pranav Kale
