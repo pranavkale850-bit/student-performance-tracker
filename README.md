@@ -7,6 +7,46 @@ ML project to predict student performance and provide improvement recommendation
 
 ---
 
+# 🎯 Student Performance Prediction System
+
+An intelligent Machine Learning system that predicts student performance and provides **personalized recommendations with explanations (WHY + WHAT TO DO)**.
+
+---
+
+## 🚀 Key Features
+
+- 🎯 Predicts student performance (Good / Average / Poor)
+- 🧠 Explainable AI:
+  - WHY the prediction was made
+  - WHAT the student should improve
+- 📊 Confidence score for each prediction
+- 💡 Actionable recommendations based on behavior
+- ⚖️ Handles class imbalance using Random Forest
+
+---
+
+## 🧠 How It Works
+
+1. User inputs:
+   - Age
+   - Absences
+   - Health
+   - Social activity (goout)
+   - Weekend alcohol consumption (Walc)
+
+2. Model predicts performance
+
+3. System generates:
+   - Prediction
+   - Confidence
+   - Reasons (WHY)
+   - Suggestions (WHAT TO DO)
+
+---
+
+## 📸 Sample Output
+
+
 ## 📌 Overviewnan
 
 This project predicts student academic performance and provides actionable recommendations using machine learning techniques.
